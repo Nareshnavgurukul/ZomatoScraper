@@ -41,7 +41,7 @@ def locRest():
 locRest()
 # Task 2
 
-ef task2(all_url):
+def task2(all_url):
 	for url in all_url:#urls of Localities
 		nameoflocal = url[27:-12]
 		filename = nameoflocal
